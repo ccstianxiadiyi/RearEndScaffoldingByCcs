@@ -1,0 +1,12 @@
+server:
+  port: 9090
+spring:
+  datasource:
+    type: com.alibaba.druid.pool.DruidDataSource
+    druid:
+      username: root
+      password: root123
+      driver-class-name: com.mysql.cj.jdbc.Driver
+      url: jdbc:mysql://localhost:3307/program?characterEncoding=utf-8&useSSL=false&serverTimezone=UTC
+mybatis-plus:
+  mapper-locations: classpath:com/chen/mapper/xml/*.xml
